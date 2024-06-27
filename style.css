@@ -1,9 +1,9 @@
 :root {
     --green: #5ed68a;
-    --red: #c81e1e;
-    --background: #ffffff;
-    --gradient-1: #fafafa;
-    --gradient-2: #2a3352;
+    --red: #ffffff;
+    --background: #000000;
+    --gradient-1: #000000;
+    --gradient-2: #ffffff;
     }
     
     html {
@@ -26,7 +26,7 @@
     min-height: 40vh;
     border-radius: 2rem 2rem 2rem 2rem;
     padding: 4rem;
-    color: #1f2933;
+    color: #ffffff;
     }
     
     h2 {
@@ -64,8 +64,8 @@
     }
     
     input {
-    border: 2px solid lightgray;
-    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    background: white;
     margin: 2rem 0;
     padding: 1rem 0;
     width: 25rem;
